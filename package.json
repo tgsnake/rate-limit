@@ -1,0 +1,34 @@
+{
+  "name": "@tgsnake/rate-limit",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "homepage": "https://tgsnake.js.org",
+  "keywords": [
+    "tgsnake"
+  ],
+  "scripts": {
+    "dev": "ts-node ./tes/index.ts",
+    "prepare": "husky install && echo \"🐍 Building snake package.\" && tsc",
+    "build": "tsc",
+    "pretty-quick": "pretty-quick --staged --pattern \"src/**/*.*(js|jsx|ts|tsx)\"",
+    "prettier": "prettier -w ./src",
+    "update": "yarn upgrade-interactive --latest"
+  },
+  "bugs": "https://github.com/tgsnake/rate-limit/issues",
+  "repository": "https://github.com/tgsnake/rate-limit",
+  "author": "butthx",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "dotenv": "^10.0.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.2",
+    "tgsnake": "^2.0.0-beta.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
