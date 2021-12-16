@@ -61,7 +61,7 @@ function RateLimit(options?: RateLimitOptions) {
             await run(ctx.snakeClient.middleware(), ctx);
           }
           if (ctx.SnakeClient) {
-            await run(ctx.snakeClient.middleware(), ctx);
+            await run(ctx.SnakeClient.middleware(), ctx);
           }
           return ctx;
         } catch (error: any) {

@@ -1,6 +1,6 @@
 {
   "name": "@tgsnake/rate-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "homepage": "https://tgsnake.js.org",
   "keywords": [
@@ -14,6 +14,7 @@
     "prettier": "prettier -w ./src",
     "update": "yarn upgrade-interactive --latest"
   },
+  "private": false,
   "bugs": "https://github.com/tgsnake/rate-limit/issues",
   "repository": "https://github.com/tgsnake/rate-limit",
   "author": "butthx",
